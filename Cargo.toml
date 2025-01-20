@@ -185,7 +185,7 @@ cc = { version = "1.0.97", default-features = false }
 
 [features]
 # These features are documented in the top-level module's documentation.
-default = ["alloc", "dev_urandom_fallback"]
+default = ["alloc", "dev_urandom_fallback", "wasm32_unknown_unknown_js"]
 alloc = []
 dev_urandom_fallback = []
 less-safe-getrandom-custom-or-rdrand = []
